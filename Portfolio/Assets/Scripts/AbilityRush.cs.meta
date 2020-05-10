@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 3adce36879f7dca44b340c7f7d6a478f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rush_activated: {fileID: 11400000, guid: b95c7ad0604bc4447992d18b26e0c72f, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
