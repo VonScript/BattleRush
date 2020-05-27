@@ -9,61 +9,26 @@ public class PortfolioManager : MonoBehaviour
 {
     public Image titlecard;
     public TextMeshProUGUI enter;
-    private Color _alpha;
-    private Color32 _textalpha;
-    private bool _doorbell;
+    private Animator _animator;
 
-    void Start(){
-        InvokeRepeating("Appear", 0.5f, 0.1f);
-        InvokeRepeating("TextAppear", 2.0f, 0.1f);
-        _doorbell = false;
+    private void Awake() {
+        _animator = GetComponent<Animator>();
+    }
+    private void Start() {
+        _animator.SetTrigger("FadeIn");
     }
 
-
-    private void FixedUpdate(){
-        if (_alpha.a >= 1f) CancelInvoke("Appear");
-        if (_textalpha.a == 250) CancelInvoke("TextAppear");
-
-        if (_doorbell){
-            if (_alpha.a <= 0 && _textalpha.a <= 50){
-                CancelInvoke("Disappear");
-                titlecard.enabled = false;
-                enter.enabled = false;
-                _doorbell = false;
-
-                SceneManager.LoadScene("Portfolio Scene");
-            }
-        }
+    public void Enter() {
+        _animator.SetBool("FadeOut", true);
+        StartCoroutine(FadeOut());
     }
 
-
-    private void Appear(){
-        _alpha = titlecard.GetComponent<Image>().color;
-        _alpha.a += 0.1f;
-        titlecard.GetComponent<Image>().color = _alpha;
+    private void Update() {
+        if (Input.anyKeyDown) Enter();
     }
 
-    private void TextAppear(){
-        _textalpha = enter.GetComponent<TextMeshProUGUI>().color;
-        _textalpha.a += 25;
-        enter.GetComponent<TextMeshProUGUI>().color = _textalpha;
-    }
-
-    public void Enter(){
-        _doorbell = true;
-        InvokeRepeating("Disappear", 0.5f, 0.1f);
-    }
-
-    private void Disappear() {
-        _alpha = titlecard.GetComponent<Image>().color;
-        _alpha.a -= 0.1f;
-        titlecard.GetComponent<Image>().color = _alpha;
-
-        _textalpha = enter.GetComponent<TextMeshProUGUI>().color;
-
-        if (_textalpha.a > 50){
-            _textalpha.a -= 25;
-            enter.GetComponent<TextMeshProUGUI>().color = _textalpha;
-        }
+    private IEnumerator FadeOut() {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("Portfolio Scene");
     }
 }

@@ -4,41 +4,49 @@ using UnityAtoms.BaseAtoms;
 using UnityEngine;
 
 public class AbilityRush : MonoBehaviour
-{ 
-    public enum State { Start, Run, Cooldown, End }
-    public State state;
-    public int cooldownTimer;
+{
+    private enum State { Start, Run, Cooldown, End }
+    private State _state;
+    private int _countdown_timer;
 
     void FixedUpdate() {
 
-        switch (state) {
+        switch (_state) {
 
             case State.Start:
-                cooldownTimer = 2;
-                state = State.Run;
+                _countdown_timer = 6;
+                _state = State.Run;
+                InvokeRepeating("Countdown", 0, 0.5f);
                 break;
 
             case State.Run:
-                InvokeRepeating("Countdown", 0, 1.0f);
-                state = State.Cooldown;
+                if (_countdown_timer == 0) {
+                    CancelInvoke();
+                    GetComponent<PlayerAtoms>().rush_activated.Value = false;
+                    GetComponent<PlayerAtoms>().rush_cooldown_active.Value = true;
+                    _state = State.Cooldown;
+                    GetComponent<PlayerAtoms>().rush_cooldown.Value = 10;
+                    InvokeRepeating("Cooldown", 0, 1f);
+                }
+
                 break;
 
             case State.Cooldown:
-                if (cooldownTimer == 0) {
+                if (GetComponent<PlayerAtoms>().rush_cooldown.Value == 0) {
                     CancelInvoke();
-                    state = State.End;
+                    _state = State.End;
                 }
                 break;
 
             case State.End:
-                GetComponent<PlayerAtoms>().rush_activated.Value = false;
+                GetComponent<PlayerAtoms>().rush_cooldown_active.Value = false;
                 Destroy(this);
                 break;
         }
 
     }
 
-    private void Countdown() {
-        cooldownTimer--;
-    }
+    private void Countdown() => _countdown_timer--;
+    private void Cooldown() => GetComponent<PlayerAtoms>().rush_cooldown.Value--;
+    
 }

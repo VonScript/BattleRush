@@ -4,7 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - rush_activated: {fileID: 11400000, guid: b95c7ad0604bc4447992d18b26e0c72f, type: 2}
+  - cooldown_timer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
