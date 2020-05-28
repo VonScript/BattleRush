@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
         gameover.Value = false;
     }
 
-    private void Update(){
+    private void Update() {
         if (gameover.Value) {
             end_screen.SetActive(true);
 
@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
 
             foreach (GameObject asset in assets) {
                 Destroy(asset);
-            }      
+            }
         }
     }
 

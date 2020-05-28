@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityAtoms.BaseAtoms;
 using UnityEditor.Experimental;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -13,9 +14,13 @@ public class PortfolioCarousel : MonoBehaviour
     public GameObject up_button;
     public GameObject down_button;
 
+    public GameObject instructions;
+
     public GameObject actuator;
+
     private Animator _animator;
     private List<GameObject> _pages;
+    private bool _action = false;
 
     private bool _start_page = false;
     private bool _prev = false;
@@ -27,7 +32,6 @@ public class PortfolioCarousel : MonoBehaviour
     private bool _project_pages = false;
 
     private int _index;
-    private Vector3 _reset = Vector3.zero;
     private Color _alpha;
 
     private void Awake(){
@@ -59,17 +63,45 @@ public class PortfolioCarousel : MonoBehaviour
     private void Update(){
         //Escape key as back button
         if (Input.GetKeyDown(KeyCode.Escape)) {
+            Debug.Log(instructions.activeSelf);
             if (_index > 2) {
                 GoToProfile();
-            } else {
+            } else if (instructions.activeSelf) {
+                instructions.SetActive(false);
+            } else { 
                 SceneManager.LoadScene("Start Scene");
             }
         }
 
-        if(_alpha.a <= 0) {
+        //Bad idea atm...
+        //if (Input.GetButtonDown("Horizontal") && !_action) {
+        //    float left_right = Input.GetAxisRaw("Horizontal");
+        //    _action = true;
+
+        //    if (left_right < 0) {
+        //        Previous();
+        //    } else {
+        //        Next();
+        //    }
+        //}
+
+        //if (Input.GetButtonDown("Vertical") && !_action) {
+        //    float up_down = Input.GetAxisRaw("Vertical");
+        //    _action = true;
+
+        //    if (up_down < 0) {
+        //        GoToProjectList();
+        //    } else {
+        //        GoToProfile();
+        //    }
+        //}
+
+        if (_alpha.a <= 0) {
             if (_start_demo) {
                 _start_demo = false;
                 CancelInvoke();
+
+                instructions.SetActive(true);
 
                 _alpha.a = 1f;
 
@@ -81,8 +113,6 @@ public class PortfolioCarousel : MonoBehaviour
 
                 _pages[0].SetActive(true);
                 _pages[0].transform.SetParent(actuator.transform);
-
-                SceneManager.LoadScene("Game Scene");
             }
 
             if (_goto_project) {
@@ -117,21 +147,34 @@ public class PortfolioCarousel : MonoBehaviour
         }
 
         //Button management - can't think of a better way atm...
-        //if (_br) {
-        //    down_button.SetActive(false);
-        //    left_button.SetActive(true);  right_button.SetActive(true); up_button.SetActive(true);
-        //} else {
-        //    if(_content.parent.name == "BR Cover") {
-        //        left_button.SetActive(false); right_button.SetActive(false); down_button.SetActive(false);
-        //        up_button.SetActive(true);
-        //    } else if(_content.parent.name == "Profile 1"){
-        //        right_button.SetActive(false); up_button.SetActive(false);
-        //        left_button.SetActive(true); down_button.SetActive(true);
-        //    } else if (_content.parent.name == "Profile 2") {
-        //        left_button.SetActive(false); up_button.SetActive(false);
-        //        right_button.SetActive(true); down_button.SetActive(true);
-        //    }
-        //}
+        if (_index < 2) {  //if viewing profile pages
+            up_button.SetActive(false); down_button.SetActive(true);
+
+            if (_index == 0) { left_button.SetActive(false); right_button.SetActive(true); } //first profile page
+            if (_index == 1) { left_button.SetActive(true); right_button.SetActive(false); } //second profile page
+
+        } else if (_index == 2) { //if viewing project list (which is only one page atm...)
+            up_button.SetActive(true); down_button.SetActive(false);
+            left_button.SetActive(false); right_button.SetActive(false);
+
+        }  else { //if viewing project info pages
+
+            if(_index == 3) { //if on first page
+                up_button.SetActive(true); down_button.SetActive(false);
+                left_button.SetActive(false); right_button.SetActive(true);
+            } else if (_index == _pages.Count - 1) { //if on last page
+                up_button.SetActive(true); down_button.SetActive(false);
+                left_button.SetActive(true); right_button.SetActive(false);
+            } else {
+                up_button.SetActive(true); down_button.SetActive(false);
+                left_button.SetActive(true); right_button.SetActive(true);
+            }
+        }
+
+        if (instructions.activeSelf) {
+            up_button.SetActive(false); down_button.SetActive(false);
+            left_button.SetActive(false); right_button.SetActive(false);
+        }
     }
 
     //*******Button presses*******
@@ -140,6 +183,11 @@ public class PortfolioCarousel : MonoBehaviour
     public void StartDemo() {
         _start_demo = true;
         InvokeRepeating("Disappear", 0, 0.1f);
+    }
+
+    public void Play() {
+        instructions.SetActive(false);
+        SceneManager.LoadScene("Game Scene");
     }
 
     public void ProjectInfo() {
@@ -172,7 +220,7 @@ public class PortfolioCarousel : MonoBehaviour
     }
 
     private IEnumerator Pause() {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.9f);
 
         _pages[_index].transform.SetParent(transform.GetChild(0));
         _pages[_index].SetActive(false);
@@ -230,6 +278,8 @@ public class PortfolioCarousel : MonoBehaviour
             }
         }
     }
+
+    private void StopAction() => _action = false;
 
     //******Alpha*******
     private void Appear() {

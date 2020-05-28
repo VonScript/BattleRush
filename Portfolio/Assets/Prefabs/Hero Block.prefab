@@ -146,6 +146,7 @@ MonoBehaviour:
   rush_cooldown: {fileID: 11400000, guid: 5826c13f6e0a6c2458ac09db1cc2ab0a, type: 2}
   ult_activated: {fileID: 11400000, guid: 68592bb21d848af4e8ed5b989f4256bf, type: 2}
   has_jumped: {fileID: 11400000, guid: 6eecd29f407174341977467eb942b1b0, type: 2}
+  escape: {fileID: 11400000, guid: 092cfc450c1b7c04693ae0a479414117, type: 2}
 --- !u!114 &5540960839691247088
 MonoBehaviour:
   m_ObjectHideFlags: 0

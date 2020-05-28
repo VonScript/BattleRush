@@ -23,10 +23,11 @@ public class PlayerControl : MonoBehaviour
 
     private void Awake() {
         _animator = GetComponent<Animator>();
+        _atoms = GetComponentInChildren<PlayerAtoms>();
     }
 
     private void Start(){
-        _atoms = GetComponentInChildren<PlayerAtoms>();
+        //_atoms = GetComponentInChildren<PlayerAtoms>();
     }
 
     private void FixedUpdate(){
@@ -95,7 +96,7 @@ public class PlayerControl : MonoBehaviour
 
     public void StopJumping() { _atoms.has_jumped.Value = false; _airborne = false; }
 
-    public void StartRush() { _animator.SetBool("Idle", false);  _animator.SetBool("Rush", true); }
+    public void StartRush() { Debug.Log("rushing");  _animator.SetBool("Idle", false);  _animator.SetBool("Rush", true); }
 
     private void EndRush() { _atoms.rush_activated.Value = false; _animator.SetBool("Rush", false); _animator.SetBool("Idle", true); }
 
