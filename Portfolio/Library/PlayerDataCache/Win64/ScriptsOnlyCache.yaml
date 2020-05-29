@@ -1,0 +1,2112 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - BossPath
+    - CameraPath
+    - EnemyDestroy
+    - EnemyPath
+    - EnemySpawn
+    - FinishLine
+    - GameManager
+    - PlayerAbilities
+    - PlayerAtoms
+    - PlayerControl
+    - PortfolioCarousel
+    - PortfolioManager
+    - TokenPickUp
+    - TokenSpawn
+    - TrackSpawn
+    - UIHealthMeter
+    - UIPointsMeter
+    - UIRushCDMeter
+    - UISlamMeter
+    MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll:
+    - UnityAtoms.BaseAtoms.BoolEvent
+    - UnityAtoms.BaseAtoms.BoolEventReferenceListener
+    - UnityAtoms.BaseAtoms.BoolVariable
+    - UnityAtoms.BaseAtoms.IntEvent
+    - UnityAtoms.BaseAtoms.IntEventReferenceListener
+    - UnityAtoms.BaseAtoms.IntVariable
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateMachineInspector
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+  sceneClasses:
+    Assets/Scenes/Game Scene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11254}
+    - Class: 114
+      Script: {instanceID: 11286}
+    - Class: 114
+      Script: {instanceID: 11428}
+    - Class: 114
+      Script: {instanceID: 11632}
+    - Class: 114
+      Script: {instanceID: 11648}
+    - Class: 114
+      Script: {instanceID: 11738}
+    - Class: 114
+      Script: {instanceID: 11822}
+    - Class: 114
+      Script: {instanceID: 11828}
+    - Class: 114
+      Script: {instanceID: 12206}
+    - Class: 114
+      Script: {instanceID: 12232}
+    - Class: 114
+      Script: {instanceID: 12246}
+    - Class: 114
+      Script: {instanceID: 12280}
+    - Class: 114
+      Script: {instanceID: 12406}
+    - Class: 114
+      Script: {instanceID: 12442}
+    - Class: 114
+      Script: {instanceID: 12478}
+    - Class: 114
+      Script: {instanceID: 12510}
+    - Class: 114
+      Script: {instanceID: 12528}
+    - Class: 114
+      Script: {instanceID: 12562}
+    - Class: 114
+      Script: {instanceID: 12884}
+    - Class: 114
+      Script: {instanceID: 13220}
+    - Class: 114
+      Script: {instanceID: 13346}
+    - Class: 114
+      Script: {instanceID: 13356}
+    - Class: 114
+      Script: {instanceID: 13494}
+    - Class: 114
+      Script: {instanceID: 13556}
+    - Class: 114
+      Script: {instanceID: 13588}
+    - Class: 114
+      Script: {instanceID: 13680}
+    - Class: 114
+      Script: {instanceID: 13734}
+    - Class: 114
+      Script: {instanceID: 13750}
+    - Class: 114
+      Script: {instanceID: 14034}
+    - Class: 114
+      Script: {instanceID: 14058}
+    - Class: 114
+      Script: {instanceID: 14262}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Portfolio Scene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11286}
+    - Class: 114
+      Script: {instanceID: 11632}
+    - Class: 114
+      Script: {instanceID: 11648}
+    - Class: 114
+      Script: {instanceID: 11822}
+    - Class: 114
+      Script: {instanceID: 11828}
+    - Class: 114
+      Script: {instanceID: 12206}
+    - Class: 114
+      Script: {instanceID: 12246}
+    - Class: 114
+      Script: {instanceID: 12442}
+    - Class: 114
+      Script: {instanceID: 12528}
+    - Class: 114
+      Script: {instanceID: 12562}
+    - Class: 114
+      Script: {instanceID: 12884}
+    - Class: 114
+      Script: {instanceID: 13220}
+    - Class: 114
+      Script: {instanceID: 13588}
+    - Class: 114
+      Script: {instanceID: 13680}
+    - Class: 114
+      Script: {instanceID: 13704}
+    - Class: 114
+      Script: {instanceID: 14262}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Start Scene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11286}
+    - Class: 114
+      Script: {instanceID: 11632}
+    - Class: 114
+      Script: {instanceID: 11688}
+    - Class: 114
+      Script: {instanceID: 12246}
+    - Class: 114
+      Script: {instanceID: 12296}
+    - Class: 114
+      Script: {instanceID: 12884}
+    - Class: 114
+      Script: {instanceID: 13220}
+    - Class: 114
+      Script: {instanceID: 13238}
+    - Class: 114
+      Script: {instanceID: 13588}
+    - Class: 114
+      Script: {instanceID: 13680}
+    - Class: 114
+      Script: {instanceID: 13950}
+    - Class: 114
+      Script: {instanceID: 14262}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 13732fbbc70aa9ff6ac8331a1d866a38
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FinishLine
+  - hash:
+      serializedVersion: 2
+      Hash: e2a3d9df8c79a28cb7d89faea00db14e
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: FloatEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: fbea084cf8584f138accaeac8945bbb3
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: GameObjectVariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 3c08375166df118bd1801438fc36b92f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: b084d85e14a6ecfeff0b67e8f249d53f
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: OnTriggerHook
+  - hash:
+      serializedVersion: 2
+      Hash: 14ba88a85d9e1a22849c31afedf6727b
+    assemblyName: MamboJamboStudios.UnityAtomsFSM.Runtime.dll
+    namespaceName: UnityAtoms.FSM
+    className: FiniteStateMachineInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 626925ef558787b2d85c809198164d19
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: de5f0ae00ac4cee677ca195bab7c0cac
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector3EventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3b2fa363945113c18ca7b3885f08ff68
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector3PairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: cefd2fed1c6324aa58fd28e79e79b891
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: ColliderGameObjectValueList
+  - hash:
+      serializedVersion: 2
+      Hash: 93e5d694ed29d434589924e1417dbcf8
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: AtomBaseVariableEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 173842273091600d58142b2168406dba
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector3VariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyPath
+  - hash:
+      serializedVersion: 2
+      Hash: 047b8c62b798519a4b7f75345c928389
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: GameObjectEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 795b1a964a6239739f5577290b701249
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: SyncColliderGameObjectVariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: a89494aa76efd8d706d099c9149e3b00
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: FloatConstant
+  - hash:
+      serializedVersion: 2
+      Hash: 3250424415d4ed0fb26174e2be04a10f
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector3PairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: ec78bbae3ab3f962bc0d86058b379c20
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: SceneFieldPairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 4c2272be86ff148b4070f3f157a5e8a6
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncGameObjectVariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: dc1163b271397ae5d5f653a7572d5cba
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: AtomBaseVariableEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 12c8bef012b9c11a157011aff031c4ce
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncColliderVariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 32e1ffad452b3e56fc6e834cce7ea75d
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColorEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1d331eee819dbfa455f123d007fab996
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SetFloatVariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d7be07d766cefa3329e85ca46cbe54a7
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: AtomListInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: ac2926e7395df9ccc17216ccc0db39f9
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: OnStartHook
+  - hash:
+      serializedVersion: 2
+      Hash: 72712369a7c681ad84fc255a5ec0b333
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: bfd1ba2bad1144cdd23cdf5686a7df29
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: SceneFieldPairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 84b3cd82e4fb22c40d78cb4c17295321
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColorEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 8bd8874637e0abba7ebc5d6b1275a411
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColliderVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 4287c0842835f6154bd04842a4614e65
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector2PairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 8e0313c6f5e2ce35991fec2d64f8eaab
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 76cb49c7dd4273330804328ec478f703
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: ColliderGameObjectConstant
+  - hash:
+      serializedVersion: 2
+      Hash: ac2926e7395df9ccc17216ccc0db39f9
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: OnFixedUpdateHook
+  - hash:
+      serializedVersion: 2
+      Hash: 7fb728624c904a3c9159a23f805cd315
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: BoolConstant
+  - hash:
+      serializedVersion: 2
+      Hash: eb6d0ebf80b277695bc8c9eef6acac53
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: BoolVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 234235b9fb07320d11497e08a726cc56
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 7e9c9ae70ce1951b283c146c9d7ab92e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BossSpawn
+  - hash:
+      serializedVersion: 2
+      Hash: 7f5ebe0ad2d61c96cbefc16c6ed71f3e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PortfolioManager
+  - hash:
+      serializedVersion: 2
+      Hash: 204fc7b8d65be3cc6a12ee45b5bc3860
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: Collider2DGameObjectPairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: d08974cb3a3932693268c312fc5a520e
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColorPairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 2442a29d0696ba19fe7361705ffff6bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraPath
+  - hash:
+      serializedVersion: 2
+      Hash: fca8bd72c7e0482fb81108e9ca252f48
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: StringConstant
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c7e68b486160b90f8a90d6d0a7e24d5d
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: FloatPairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 6c34fdd35da048f5319f62d832dd099d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerAtoms
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: c44be8cae3147c195d995a71c37d2e7d
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: BoolEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 6f8cfc8ac90fd21bbcb61a0cd787c06e
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector3EventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd287b1464a504628ce9183d0de4cc3
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: TouchUserInputPairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MamboJamboStudios.UnityAtomsFSM.Runtime.dll
+    namespaceName: UnityAtoms.FSM
+    className: FiniteStateMachineMonoHook
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9b53a0e202d0e82259f1ab9d449eb
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: VoidBaseEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 34afbb8b43d8a5c9228b1b6198cd8943
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: FloatEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 93b1a3c34b2072f980d08172b4510abe
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector3ValueList
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 686ce56564c3c70cb073f4e5d83c01c6
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: BoolEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 4e9333594897a1fb8b136ad2eae996c7
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5a1381b8e8421c8f983189886890279f
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Collider2DEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 3a76b913676d57f33ca7bd91fbe162b2
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColorVariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 6d60dde0b0f1ce1cd76bd47f477eb1f1
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: BoolValueList
+  - hash:
+      serializedVersion: 2
+      Hash: 29f8f8aa606137d6faec6d4c162e6234
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: TouchUserInputEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b287661c020d13fee4cc1e2deabba51b
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Collider2DEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: ea8cf752b421c40112cabfb04636e7e9
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColliderValueList
+  - hash:
+      serializedVersion: 2
+      Hash: 6ec70bad05ea0d3f9fb6a5920cebf605
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncCollectionInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: d7f50603327d958e5c087e1fa66a9695
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector2EventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: d2571ca5412d1ce57a789853036fe354
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SetColliderVariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 61a98f23b5a8fe13ead8e65d310cfcac
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: GameObjectValueList
+  - hash:
+      serializedVersion: 2
+      Hash: 3f092b47880b4e9c93f973a49676a585
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncCollider2DVariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 1813ca45d42e9c057c095672c00dafca
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: AtomBaseVariableBaseEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: a9746b0a4b69ba135f16f4cd316f9364
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: QuitApplication
+  - hash:
+      serializedVersion: 2
+      Hash: 490c04e5c2ec88cd58269151fd7fd859
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector3PairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 6be2ed0fd0433a2f55711eb592529c53
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SetStringVariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: 77f00e547ce05f03f6805905779361fc
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: IntEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 85bf6f1e368c34307d05987f63cd8899
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: TouchUserInputEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 738a4717a40f5c9f5f16a64080d9375b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerControl
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 261f5347b5b9b7bf7014d54572ec8776
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: TouchUserInputPairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 37c69183a0197871e515f79b343808b5
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColliderPairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 29396306c78e73b04174da143f94dc85
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncColorVariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 4a8737d1f7360644d96f36d4b85c698a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 562fd2a1c31718c12d0b6293f42ac0a9
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: FloatVariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 4824a6d1f769dd2a95f01c361dd4be29
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncBoolVariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 3d85806ff067e8e4c15a762963a13b92
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: FloatEvent
+  - hash:
+      serializedVersion: 2
+      Hash: c1f785c715f1aac7ac45e28b97b34e79
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: TouchUserInputEvent
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 0fa0cce6ec9addee380e6ed7e38f1eb8
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: TouchUserInputPairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 69bb3fc22f27e5040bf920e6e321ca41
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: SceneFieldEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 82096af71d897e49b76a509d83c79a13
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Collider2DVariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 143514e58a1115dfc8c85d44999da39e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIPointsMeter
+  - hash:
+      serializedVersion: 2
+      Hash: 639a1f36a9868311225e94b85e27f0b9
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: ChangeScene
+  - hash:
+      serializedVersion: 2
+      Hash: 805dbb03fc9e57d03e6f5996c34ad8d3
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncFloatVariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: c2a38f980309d5eeeaf95474a848d2cd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BossPath
+  - hash:
+      serializedVersion: 2
+      Hash: 0e2383d2e11d8a1bf0b45091d310cfe5
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: SceneFieldPairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 779024ce6620a2a91f38622fa745fe7b
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: ColliderGameObjectEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1b2d7e5eedf5b7a4b8d795dc1cd501f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TokenSpawn
+  - hash:
+      serializedVersion: 2
+      Hash: 7c346a09515c0110741806bfad577703
+    assemblyName: MamboJamboStudios.UnityAtomsFSM.Runtime.dll
+    namespaceName: UnityAtoms.FSM
+    className: FSMTransitionDataBaseEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: fa5e97b40a96565f9b7ee0ed63fe7417
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: SceneFieldVariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 7f47c4d468057d8759ec773baf8adf28
+    assemblyName: MamboJamboStudios.UnityAtomsCore.Runtime.dll
+    namespaceName: UnityAtoms
+    className: VariableResetter
+  - hash:
+      serializedVersion: 2
+      Hash: 2e5478e6842c2b9dca2f9c2f1e0784e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemySpawn
+  - hash:
+      serializedVersion: 2
+      Hash: bd76e766964c909d8e16772b10d33c61
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: GameObjectPairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 07c0385795374605a3ea89b73b740895
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerAbilities
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: 0dc4533a597acfb26bd483c835bf1a10
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: IntVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 395226922b3621f368ded604059c5691
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: Collider2DGameObjectPairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 9b7cf478c34990390eef100db24b6da3
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector2Event
+  - hash:
+      serializedVersion: 2
+      Hash: e65f11f9f5ba38ece4d86589b488e016
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector2VariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 065020bd9b8c62f4739f8551ef1a8633
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector3Event
+  - hash:
+      serializedVersion: 2
+      Hash: 7628639b83d3655d7421f332a92d9307
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: SetColliderGameObjectVariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: 745de6a41f8c63ee358dbd1f5096a4d2
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: FloatVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 6dbae8935df06251a7c6f1b3e27094af
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: ColliderGameObjectEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 8a4582dd95527ea2abe73edd980a8f91
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: GameObjectEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a9ebf7788bccc3a604d479ec02b78926
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: IntValueList
+  - hash:
+      serializedVersion: 2
+      Hash: 5217dc85ff907c92845ec39939ea6b41
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: GameObjectPairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 48c774b26abb6a54af6cbe77aa8629e9
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: IntConstant
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: ec5af5daa9c3f49615a72035864b4e4f
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector2Variable
+  - hash:
+      serializedVersion: 2
+      Hash: 1544a2a00d9d70da016d0479c6f077b6
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector2Constant
+  - hash:
+      serializedVersion: 2
+      Hash: 2920b323cedc09819dad90e8e3be20fa
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: FloatPairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: b3f5c22ac67596d2acb1be92230d3cfe
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SetVector3VariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: e91fa38daeb44bca2d4a47b770a97732
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColliderConstant
+  - hash:
+      serializedVersion: 2
+      Hash: 9afb043a89b6c09f1943532a8d3af00c
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColliderEvent
+  - hash:
+      serializedVersion: 2
+      Hash: ef9267877da6462cc99884c3d8313652
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: ColliderGameObjectPairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 94cb3b1f5f2fc59584b7d23eb0ec6546
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: Collider2DGameObjectVariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: f5b20cf10fca39e70d00627b25f0fb7c
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: BoolPairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: ed64ba091fd7dec23c2eeac4d1380022
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Collider2DConstant
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 8744f5ce9a1bfc3fb49f85a4c1c8998f
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: StringValueList
+  - hash:
+      serializedVersion: 2
+      Hash: e016e8de899f30769ce5e254e0639eeb
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: OnTrigger2DHook
+  - hash:
+      serializedVersion: 2
+      Hash: faa61027e18a01fa559584bab0744a06
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: FloatValueList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AbilityRush
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 87c7c5d43684e26a00b7f7a0a1aa023a
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: Collider2DGameObjectPairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 783f87acdad0ce604134bbcf64bde9fb
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: ColliderGameObjectVariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: ac2926e7395df9ccc17216ccc0db39f9
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: OnButtonClickHook
+  - hash:
+      serializedVersion: 2
+      Hash: 7263ff9a97d2fbc1713b1707603f4505
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Collider2DValueList
+  - hash:
+      serializedVersion: 2
+      Hash: a9af6f87b18668e7d3bddbc03a707ba9
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: GameObjectVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 8abf8ae9a0fb1ee35e7695ec4672e600
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: StringPairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: feb9a5a121d15fa3654d4e50a5233045
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 388a40883b68944a63fdea3c5de4d966
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector3Constant
+  - hash:
+      serializedVersion: 2
+      Hash: 86f583dda855c44a1ffee68a8577929c
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: StringPairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 956ddfb9e3702ab3af8b1c114c5e69ce
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: StringEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: f7a8ce421afe62981df6cc604bc2c169
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: ColliderGameObjectEvent
+  - hash:
+      serializedVersion: 2
+      Hash: fded8f903ae893a14ca956a9b5eac533
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: AtomCollectionInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: fb18649d2ed1a6f4f9cd02cfbc99dd83
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: SceneFieldValueList
+  - hash:
+      serializedVersion: 2
+      Hash: 813b00265f21953cacdd2b7829ca7d3f
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: AtomCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 68e2beea64312f48a7b3b7da4745230c
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SetIntVariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: afcaba69a1684a42105d47d1dfc88052
+    assemblyName: MamboJamboStudios.UnityAtomsTags.Runtime.dll
+    namespaceName: UnityAtoms.Tags
+    className: AtomTags
+  - hash:
+      serializedVersion: 2
+      Hash: 9ad09ffc363cfdea2ef2ff3ae63a9b1c
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Collider2DPairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: ac2926e7395df9ccc17216ccc0db39f9
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: OnDestroyHook
+  - hash:
+      serializedVersion: 2
+      Hash: a09daef6aff8f7033f8728b0cea27979
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncVector3VariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: d3573f5f266e997a12568286b2d09e8c
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: StringEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 492dad30fd926a71f03a170c693049fc
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColorVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 8cd015bcb2d44bc9bf3c670187ccc9f6
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SetColorVariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: 768346e8c7e11b0554d7a91dae7bb4e4
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: ColliderGameObjectPairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 800fde24614a7af3ea0fe6b43590f832
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColorPairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 35a9693c388776aaf487636491a20f11
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b7eed9d3fd75f324b5864b6a365bc4b1
+    assemblyName: MamboJamboStudios.UnityAtomsFSM.Runtime.dll
+    namespaceName: UnityAtoms.FSM
+    className: FSMTransitionDataEvent
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 201c7ab0e9619e323527498df0b82a04
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: BoolVariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 05a956d7ef9212709011a9382c90e1ca
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: SetTouchUserInputVariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: 8fff401863716837b6459a420a1251c6
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: TouchUserInputVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 40dab7b3ddfa310271c028f68d1128fb
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Collider2DEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 39974cd4c721d957e8dfa6794ccd5f45
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncGameObjectToList
+  - hash:
+      serializedVersion: 2
+      Hash: 839bbefdb8aae8aed2b574be8bc6f1d9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIHealthMeter
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 936b00eda9af108e6cff9cca008ad7a8
+    assemblyName: MamboJamboStudios.UnityAtomsFSM.Runtime.dll
+    namespaceName: UnityAtoms.FSM
+    className: FSMTransitionDataEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: e06ed8ea9f4f2cbc9a782644cdafd05f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UISlamMeter
+  - hash:
+      serializedVersion: 2
+      Hash: 13768c2720699d873c4586ad4f37b3ad
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: IntPairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 47db726b63c55b989cb758c8362eaf11
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SetCollider2DVariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: 981170377643d46ea7439cc5121cfc87
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: Collider2DGameObjectConstant
+  - hash:
+      serializedVersion: 2
+      Hash: 6c2be24a505534bdcb5bd3f3d21ff1db
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColliderPairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 199446a9a145c3f0e1743288a5ee391a
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncVector2VariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 52274979aa1f8c2303ab3e2366e7f726
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: Collider2DGameObjectEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 56a0a1feabac0351ca0d1edc15703166
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Collider2DVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 1c795269aabce8d7af2a53d0445656df
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector2ValueList
+  - hash:
+      serializedVersion: 2
+      Hash: 6e9e32f4dfb3ccb56fbe324fdc8f89a0
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Collider2DPairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: ac40640a407540720d21169f7ad9639f
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: OnAwakeHook
+  - hash:
+      serializedVersion: 2
+      Hash: 7ff1232650851b0b669e53fdd8555323
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector2EventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: e6038a20cda4ec7e3602a325cb7dc74d
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: BoolPairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 492761e3d8f11b9bda4943c209bf49d1
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: IntPairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 7876d291517a26dc2c682e487e168a4d
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: VoidEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 97a7454853283625d5de67848871c4ae
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: TouchUserInputValueList
+  - hash:
+      serializedVersion: 2
+      Hash: 716862327f6f14c654b052f2d960eac7
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: IntEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6260ffadbeddfb51a4092c5045359b26
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: Collider2DGameObjectValueList
+  - hash:
+      serializedVersion: 2
+      Hash: c4159b8f35572b82f2422cd00f98f16d
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector3Variable
+  - hash:
+      serializedVersion: 2
+      Hash: 82ba9dc50c27fd6a6226dce525426b11
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: IntVariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 348aac62affb4481012fbe1b388fe5d7
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: Collider2DGameObjectVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 486a6cc166a5fc8bbee1f79a95f2a7f3
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: SyncCollider2DGameObjectVariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: b46b28a59d55ed2b5eadb453e332ee84
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: BoolEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: ceee5c41cfff4d537963f80f1c80cda9
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: SceneFieldConstant
+  - hash:
+      serializedVersion: 2
+      Hash: 3b760e6526e13f7504f59e210145899a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: fae1dcd5c5ed2b8ea0235bad6c1f2a01
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Collider2DPairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: e6d1a43e25282f9fc31593417baedca3
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SetGameObjectVariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: 260abbcf23482411afb4812b32ece530
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: TouchUserInputVariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: c556fd38b22b494a74d988cb9ffc6922
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ClampFloat
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5380299658b36030bab62de3e66f8360
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: SceneFieldVariable
+  - hash:
+      serializedVersion: 2
+      Hash: b3ddfac99f5cffdd46b23fa3d6b0ef47
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncListInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ac2926e7395df9ccc17216ccc0db39f9
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: OnUpdateHook
+  - hash:
+      serializedVersion: 2
+      Hash: 8cd07f6e28ca3b3d4748f5d9fb1d2d0e
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: IntPairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcd255879e53540b6ef02e54a45fbda
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PortfolioCarousel
+  - hash:
+      serializedVersion: 2
+      Hash: 20e4f8142eb3e3aeb4ce23f43c7515de
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: SceneFieldEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4d843bcbce5c33ce740137b30aa4aee9
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: GameObjectPairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 09dffaf35f3ad09b6c8733dfcd37f347
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColorPairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 6fb41a36732bc44a79589c232d8013f0
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColliderEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 2da0f06d91d17007043f909d4ad4b32f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TrackSpawn
+  - hash:
+      serializedVersion: 2
+      Hash: 7da61ffc30913375f30e41f9fd32c5cf
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: GameObjectEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 1c236ebac3351e259776967ec0aedf65
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColliderVariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 3ad19b4f66e29dd881b777e57df5382e
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector2PairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: f03231984447acbf42160e648a215a73
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColorEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 6416d503f210a4578bd8f93460e7529d
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: ColliderGameObjectVariable
+  - hash:
+      serializedVersion: 2
+      Hash: ac2926e7395df9ccc17216ccc0db39f9
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: OnLateUpdateHook
+  - hash:
+      serializedVersion: 2
+      Hash: 2eb05faf853c3300a5cd7247b1506efb
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: SetCollider2DGameObjectVariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: bebc80427095119fa9dbf9f5ef761ecd
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: StringPairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: e35473dc94e81cb501180d17351c708e
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SetBoolVariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: ca34eca938cdea9616fc91a9c7070a11
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: SetSceneFieldVariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: e3e0703120f2bf3825f0f7f9acaf9f2b
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: StringEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 2028b434dac6c4b2755e8e0c8b6c9b59
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncIntVariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 4729c2572650062a392c32e28c4b1456
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: IntEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: d4c57a0c176129061ff67653704b2128
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColorConstant
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 967d0b70816d5fefab5ae07d1056fd40
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: TouchUserInputConstant
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: b577d9965a10fd14c6f361e5fa512b77
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: SyncSceneFieldVariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 37ddfdd3d6b18a59853c6a64885b419a
+    assemblyName: MamboJamboStudios.UnityAtomsSceneMgmt.Runtime.dll
+    namespaceName: UnityAtoms.SceneMgmt
+    className: SceneFieldEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 84534b585a47e9bd3c9cc66d3dc15af1
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColliderEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5f22fad9fccb299d104ca5837cb5e164
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SyncStringVariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 0c082132f14d8198e1c8ef7540acc544
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: AtomList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TokenPickUp
+  - hash:
+      serializedVersion: 2
+      Hash: cad6f70240bd7b8ffd2c53a308945fde
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: VoidEvent
+  - hash:
+      serializedVersion: 2
+      Hash: dd2623df91b7e2fd2fecbc77631a8ecc
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: GameObjectConstant
+  - hash:
+      serializedVersion: 2
+      Hash: 37f1ca1538f13958944b943c7e262eca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIRushCDMeter
+  - hash:
+      serializedVersion: 2
+      Hash: 7741dcd0fe25ca8609d8fcf439255d5d
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: StringVariableInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 042ca092e633dc1957e42a803016656a
+    assemblyName: MamboJamboStudios.UnityAtomsFSM.Runtime.dll
+    namespaceName: UnityAtoms.FSM
+    className: FiniteStateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AbilitySlam
+  - hash:
+      serializedVersion: 2
+      Hash: df434544c9f7b33d1cc7e635b180d279
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 55de75880a14ea75492b8ca5a9e5300f
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: StringVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 46d24f04342c90cde97931e458576176
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ClampInt
+  - hash:
+      serializedVersion: 2
+      Hash: ebf4ff60bb9429abcf8880ee613e6b93
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: UpdateTouchUserInput
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 13fa9b4ea4311e720357c6b8a8898e61
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: ColliderGameObjectPairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: ac2926e7395df9ccc17216ccc0db39f9
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: OnPointerDownHook
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: cbc8113bd0c415d44628716c294dfc52
+    assemblyName: MamboJamboStudios.UnityAtomsUI.Runtime.dll
+    namespaceName: UnityAtoms.UI
+    className: UIContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: f48e9aec8bf540f9017195cd3ab47517
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: Collider2DGameObjectEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4ef0f7d42cdb13479386e1f049c315aa
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 7b02d30e70b97f5bf64442b4cdab138f
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: Vector2PairEventReferenceListener
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 2139c8f255915c31e0c29c650223832f
+    assemblyName: MamboJamboStudios.UnityAtomsMobile.Runtime.dll
+    namespaceName: UnityAtoms.Mobile
+    className: SyncTouchUserInputVariableInstancerToCollection
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 826f2919ce0a7fa2038993d4c4ec1b47
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColliderPairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 95b3ffde7656eccf797a5b11288179cf
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: FloatPairEventInstancer
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a12eaf2f8b2a7ad5c0b16c70d307594b
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: SetVector2VariableValue
+  - hash:
+      serializedVersion: 2
+      Hash: 8d46cc4599715ce9f6d1a13cb4e65acb
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: BoolPairEvent
+  - hash:
+      serializedVersion: 2
+      Hash: b201059698f32a6c5f4176c4d16aeaf9
+    assemblyName: MamboJamboStudios.UnityAtomsMonoHooks.Runtime.dll
+    namespaceName: UnityAtoms.MonoHooks
+    className: Collider2DGameObjectEvent
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0b55360ba86bfc57568a69b8eb6f56a7
+    assemblyName: MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll
+    namespaceName: UnityAtoms.BaseAtoms
+    className: ColorValueList
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/Start Scene.unity
+  - Assets/Scenes/Portfolio Scene.unity
+  - Assets/Scenes/Game Scene.unity
+  playerPath: D:/Documents/Unity/GitHub/BattleRush/Portfolio/Portfolio App.exe

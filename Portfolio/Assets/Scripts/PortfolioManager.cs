@@ -24,7 +24,12 @@ public class PortfolioManager : MonoBehaviour
     }
 
     private void Update() {
-        if (Input.anyKeyDown) Enter();
+        if (Input.anyKeyDown) {
+            if(Input.GetKeyDown(KeyCode.Escape))
+                Application.Quit();
+            else
+                Enter();
+        }
     }
 
     private IEnumerator FadeOut() {
